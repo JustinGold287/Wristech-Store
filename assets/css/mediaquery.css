@@ -28,4 +28,8 @@
   .header {
     display: none;
   }
+  .logo-size{
+    font-size: large;
+    margin-left: 0;
+  }
 }
