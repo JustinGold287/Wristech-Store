@@ -1,0 +1,301 @@
+/* #1e1134 #d6effa #2289a7 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+/* header */
+.header {
+  background-color: #940404;
+  ;
+  color: white;
+}
+
+.social-hover:hover {
+  transform: translateY(-7px);
+  transition: 1s;
+}
+
+/* logo */
+.logo-size {
+  margin-left: 70px;
+  line-height: 1px;
+}
+
+/* navbar */
+nav {
+  box-shadow: 3px 3px 3px black;
+  background-color: white;
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+.nav-b {
+  background-color: #d30505;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 17px 40px;
+  font-size: smaller;
+}
+
+/* hero section */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.content {
+  position: absolute;
+}
+
+.ris-bg {
+  height: 90vh;
+  transition: 8s;
+  animation-delay: 3s;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../img/futuristic-hologram-smartwatch-wearable-technology.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-h-text {
+  font-size: 4em;
+  font-weight: bolder;
+  color: #f6f6f6;
+  text-shadow: 4px 4px 5px #000000;
+}
+
+.bg-cl-img {
+  width: 360px;
+}
+
+.main-h-text {
+  font-weight: 500;
+  font-size: 3.5em;
+  font-family: Impact;
+  letter-spacing: 99%;
+  letter-spacing: 1px;
+
+}
+
+.car-indi-b {
+  transform: translateY(65px);
+  margin-bottom: -60px;
+}
+
+.intro-bg-video {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/top-view-male-self-care-items.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: scroll;
+  margin-bottom: 10%;
+}
+
+/* vido player */
+.feature-img {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.video-img {
+  border: 8px solid #0e0e97;
+  width: 151vh;
+  height: 88vh;
+  border-radius: 10px;
+}
+
+.play-btn {
+  width: 60px;
+  left: 45%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  position: absolute;
+}
+
+.play-btn i {
+  color: white;
+}
+
+.video-player {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  border: 2px solid white;
+}
+
+video :focus {
+  outline: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.container11 {
+  position: relative;
+  max-width: 100%;
+}
+
+.text11 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+}
+
+.gall-text {
+  font-size: 3.2em;
+}
+
+.strap-buttun-see-more {
+  text-decoration: none;
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: bolder;
+  padding: 17px 42px;
+  border-radius: 45%;
+}
+
+.review-sub-name {
+  font-size: 3em;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px 7px rgba(255, 0, 0, 0.507);
+}
+
+.strap-block-b {
+  margin-top: 7%;
+}
+
+.target-img {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.target-img img {
+  margin-left: 40%;
+  position: absolute;
+}
+
+.caro-img img {
+  box-shadow: 2px -2px 7px black;
+}
+
+.Review-bg {
+  background-color: hsla(0, 0%, 0%, 1);
+  background-image:
+    radial-gradient(at 66% 46%, hsla(0, 0%, 97%, 0.46) 0px, transparent 50%),
+    radial-gradient(at 42% 53%, hsla(339, 92%, 83%, 0.47) 0px, transparent 50%);
+  margin-bottom: 6%;
+}
+
+.footer-style {
+  /* background: rgb(73, 36, 138);
+  background: radial-gradient(circle, rgb(31, 31, 31) 4%, rgb(14, 14, 14) 48%); */
+  background-color: #2c0000;
+  color: #c4dbe5;
+  margin-top: 8%;
+}
+
+/* .imge-eliscspe{
+  width: 200px;
+  display: inline-block;
+}
+.imge-eliscspe2{
+  background-image: url(../img/Ellipse-974-copy-3.png);
+  background-size: contain;
+  height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  transform: translateY(96px);
+  display: contents;
+} */
+
+@media(max-width:992px) {
+  .ris-bg {
+    height: auto;
+  }
+
+  .bg-cl-img {
+    width: 218px;
+    margin-left: 15%;
+  }
+
+  .bg-h-text {
+    font-size: 3.1em;
+  }
+
+  .main-h-text {
+    font-size: 2.5em;
+  }
+
+  .car-ini-b {
+    transform: translateY(0px);
+    margin-bottom: 0px;
+  }
+
+  .video-img {
+    width: 95%;
+    height: 100%;
+  }
+
+  .container-strap {
+    margin: auto;
+    width: 100%;
+  }
+
+  .container11 {
+    overflow-y: scroll;
+
+  }
+
+  .gall-text {
+    font-size: 2em;
+  }
+
+  .text11 {
+    margin-top: 10%;
+  }
+
+  .text11 h5 {
+    color: black;
+    text-shadow: 2px 2px 12px #f6f6f6;
+  }
+
+  .review-sub-name {
+    font-size: 2.7em;
+  }
+
+  .strap-block-b {
+    margin-top: 18%;
+  }
+}

@@ -1,0 +1,101 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: poppins;
+}
+/* header */
+.header{
+  background-color:#940404; ;
+  color: white;
+}
+.social-hover:hover{
+transform:translateY(-7px);
+transition: 1s;
+}
+
+/* logo */
+.logo-size {
+  margin-left: 70px;
+  line-height: 1px;
+}
+/* navbar */
+nav{
+  box-shadow: 3px 3px 3px black;
+  background-color: white;
+}
+
+nav ul li {
+font-size: 20px;
+}
+
+.nav-b {
+  background-color:#d30505;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 17px 40px;
+  font-size: smaller;
+}
+
+/* main section */
+.main-gal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/apple-smartwatch-for-fitness-07eb2oe3w8m9poa7.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-gal>section>div>h1{
+  font-size: 60px; font-weight: bold;
+  color: #f6f6f6;text-shadow: 2px 2px 2px red;
+}
+
+.bg-gal-2 {
+  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/photo\ smartwatch348.avif);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 10% 0;
+  background-position: center;
+  position: relative;
+  padding: 7.5% 0;
+}
+
+.move_gal {
+  background-color: aliceblue;
+  color: black;
+  padding:5% 5.5%;
+  position: absolute;
+  right: 8%;
+  border-radius: 10px;
+}
+.move_gal > p{
+  line-height: 28px;
+}
+
+/* runing numbers */
+.run-n {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/new-smartwatch-balancing-with-pyramid_23-2150296473.avif);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 14% 0;
+  color: white;
+}
+.run-d {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.run-n i {
+  color: #c31700;
+  font-size: 40px;
+  text-shadow: 2px 2px 15px #000000;
+}
+
+/* footer */
+.footer-style {
+  /* background: rgb(73, 36, 138);
+  background: radial-gradient(circle, rgb(31, 31, 31) 4%, rgb(14, 14, 14) 48%); */
+  background-color: #2c0000;
+  color: #c4dbe5;
+  margin-top: 8%;
+}

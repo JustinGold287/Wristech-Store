@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.header{
+  background-color:#940404; ;
+  color: white;
+}
+.social-hover:hover{
+transform:translateY(-7px);
+transition: 1s;
+}
+
+/* logo */
+.logo-size{
+  margin-left: 100px;
+}
+/* navbar */
+nav{
+  box-shadow: 3px 3px 3px black;
+  background-color: white;
+}
+
+nav ul li {
+font-size: 20px;
+}
+
+.nav-b {
+  background-color:#d30505;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 17px 40px;
+  font-size: smaller;
+}
+
+.heading_shop{
+  margin: 4% 0% 6% 0;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/workplace-business-modern-male-accessories-laptop-black-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.strap-position {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-bottom: -1px;
+}
+
+.border-line-cart {
+  width: 240px;
+  height: 0.8px;
+  background-color: gray;
+  margin-right: 20px;
+}
+
+.btn-shop {
+  background-color: rgba(128, 128, 128, 0.398);
+  padding: 6px 12px;
+  border-radius: 50px;
+  text-align: center;
+  color: #2289a7;
+}
+
+.btn-shop:hover {
+  background-color: blue;
+  color: #f6f6f6;
+  transition: 0.5s ease-in;
+}
+
+.btn-shop i {
+  font-size: 12px;
+}
+
+.footer-style {
+  background: rgb(73, 36, 138);
+  background: radial-gradient(circle, rgba(73, 36, 138, 1) 4%, rgba(16, 3, 39, 1) 48%);
+  color: #c4dbe5;
+  margin-top: 8%;
+}

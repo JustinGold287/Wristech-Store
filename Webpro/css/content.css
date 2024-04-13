@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contact-us {
+  height: auto;
+  background-color:rgb(255, 0, 0);
+  background: rgb(214,11,11);
+  background: linear-gradient(270deg, rgba(214,11,11,1) 44%, rgba(232,29,0,1) 52%); 
+  margin-bottom: 11%;
+  box-shadow: 2px 2px 25px black;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+
+/* 7th section */
+.sec-2 {
+  height: auto;
+  
+}
+.nav-b {
+  background-color: #ee0707;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 17px 40px;
+  font-size: smaller;
+}
+
+.fs-size {
+  margin-left: 5%;
+  margin-right: 8%;
+}
+
+.pick{
+  font-size: 80px;
+  color: #000000;
+  text-shadow: 5px 5px 5px rgb(193, 193, 193);
+}
+.pick2{
+  font-size: 80px;
+   color: #000000;
+   text-shadow:2px 2px 2px #746565;
+}
+.pick3{
+  font-size: 80px;
+  color: #000000;
+  text-shadow:2px 2px 2px #000000;
+}
+.pick4{
+  font-size: 80px;
+  color: #000000;
+  text-shadow:2px 2px 2px #000000;
+}
+
+/* 9th section */
+.port-img {
+  background-color: #e2dfdf;
+  box-shadow: 2px 2px 13px black;
+  color: #000000;
+  margin: 20px 0;
+  height: 40vh;
+  padding: 3.5rem;
+}
+
+/* Ouick service */
+.last-sec {
+  height: auto;
+  background: rgb(131,2,2);
+  background: radial-gradient(circle, rgba(131,2,2,1) 63%, rgba(169,47,9,1) 84%); 
+}
+
+.motor-img{
+  width: 290px;
+  height: 100%;
+}
+
+/* context page */
+
+.contact-pg{
+  background: rgb(4,199,189);
+background: radial-gradient(circle, rgba(4,199,189,1) 25%, rgba(56,1,158,1) 59%, rgba(74,208,255,1) 100%);
+color: #ffffff;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+.con-text{
+  text-align: center;
+  color: #09ff00;
+  text-shadow: 2px 2px 15px #000000;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line-b {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+.new-deal{
+background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../img/gallery-3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+background-attachment: fixed;
+padding: 5% 0;
+}
+.row-qiex{
+padding: 0;
+margin: auto;
+height: 300px;
+max-width: 830px;
+}
+.event-time{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+
+
+@media (max-width:992px){
+/* portfolio */
+.port-img{
+  overflow-y: scroll;
+}
+.motor-img{
+  width: 100%;
+}
+
+.text11{
+  padding: 4px;
+  font-size: medium;
+}
+.text{
+  font-size: large;
+  padding: 5px;
+}
+
+}

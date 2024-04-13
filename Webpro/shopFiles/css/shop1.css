@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #000000;
+  box-shadow: 1px 1px 7px #898989;
+  text-shadow: 2px 2px 5px #292929;
+}
+
+.web-name{
+  font-weight: bolder;
+  color: aqua;
+  margin: 0 30%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: oblique;
+  font-variant: small-caps;
+}
+nav ul li {
+font-size: 20px;
+}
+nav a:hover{
+ background-color: rgba(0, 255, 255, 0.083);
+}
+.nav-name {
+  text-shadow: 1px 1px 3px wheat;
+}
+
+.nav-b {
+  background-color: #2289a7;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 17px 40px;
+  font-size: smaller;
+}
+
+.heading_shop{
+  margin: 4% 0% 6% 0;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/Webpro/img/workplace-business-modern-male-accessories-laptop-black-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.footer-style {
+  background: rgb(73, 36, 138);
+  background: radial-gradient(circle, rgba(73, 36, 138, 1) 4%, rgba(16, 3, 39, 1) 48%);
+  color: #c4dbe5;
+  margin-top: 8%;
+}
+.btn-add-sub{
+  padding: 13px 20px;
+border: none;
+border-radius: 50%;
+background-color: #d6d3d34b;
+}
+.btn-add-sub i{
+  color: gray;
+}
+.btn-add-sub-input{
+  padding: 6px 12px;
+border: none;
+background-color: transparent;
+color: gray;
+font-weight: bolder;
+}
+.add-to-cart{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2267a7;
+  padding: 15px 18px;
+  font-size: smaller;
+}
+.share-button{
+background-color: #d6d3d34b;
+  text-decoration: none;
+  padding: 15px 18px;
+}
+.share-button i, span{
+  margin: 0 8px;
+}
+
+/* udyud */
+
+.content {
+  display: none;
+  padding: 10px;
+}
+.drop_button{
+  border: none;
+  background-color: transparent;
+  padding: 20px 0;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.active-button{
+color: blue;
+border-bottom: 3px solid blue;
+}
+.review-star{
+  background-color: rgb(216, 210, 210);
+  padding: 11px 15px;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.review-star i{
+  font-size: 14px;
+}
+.submit-button{
+  background-color: #2289a7;
+  padding: 15px 22px;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+/* hd */
+.strap-position {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-bottom: -1px;
+}
+
+.border-line-cart {
+  width: 240px;
+  height: 0.8px;
+  background-color: gray;
+  margin-right: 20px;
+}
+
+.btn-shop {
+  background-color: rgba(128, 128, 128, 0.398);
+  padding: 6px 12px;
+  border-radius: 50px;
+  text-align: center;
+  color: #2289a7;
+}
+
+.btn-shop:hover {
+  background-color: blue;
+  color: #f6f6f6;
+  transition: 0.5s ease-in;
+}
+
+.btn-shop i {
+  font-size: 12px;
+}

@@ -1,0 +1,57 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.dot-min-h:hover{
+background-color: #86868633;
+border-radius: 50%;
+transition: 0.3s;
+cursor: pointer;
+}
+
+.blod4{
+  margin-top: 6%;
+  width: 400px;
+  box-shadow: 1px 1px 15px black;
+  border-radius: 15px;
+  height: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+.head_tool{
+  color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+  height: 184px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* emoji */
+img{
+  width: 35px;
+}
+/* dot */
+.dot{
+  width: 5px;
+  background-color: #FFFFFF;
+  height: 5px;
+}
+
+/* jhd */
+.custom-shape-divider-bottom-1700325292 {
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1700325292 svg {
+  display: block;
+    width: calc(151% + 1.3px);
+    height: 16px;
+}
+.custom-shape-divider-bottom-1700325292 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.take45{
+  transform: rotate(180deg);
+}

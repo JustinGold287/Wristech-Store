@@ -1,0 +1,53 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.chat-block{
+  margin-top: 20%; margin-left: 37%;
+  display: flex;
+  align-items: center;
+}
+.chat-message{
+  background-color: rgb(60, 193, 255);
+  padding: 20px;
+}
+.chat-message:hover{
+  background-color: aqua;
+}
+.chat-pencil{
+  box-shadow: 1px 1px 22px rgba(0, 0, 0, 0.534);
+  padding: 18px;
+  transform: translateX(-93px); 
+}
+img{
+  width: 25px;
+}
+.chatx6{
+  box-shadow: 1px 1px 22px rgba(0, 0, 0, 0.534);
+  border-radius: 15px;
+}
+.me4ty i{
+  color: aliceblue;
+}
+.me4ty:hover{
+  transform: scale(1.1);
+  background-color: aqua;
+}
+
+/* hds */
+/* .container {
+ display: inline-block;
+ background-color: yellowgreen;
+ margin: 30px;
+}
+.btn2{
+  position: relative;
+}
+.hidden {
+ display: none;
+}
+
+#popup {
+ position: absolute;
+ transform: translateX(-0px);
+} */
