@@ -8,11 +8,18 @@
   <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist copy/css/bootstrap.min.css">
   <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
   <link rel="stylesheet" href="../assets/css/mediaquery.css">
+  <link rel="stylesheet" href="../assets/css/tools.css">
   <title>Document</title>
 </head>
 
 <body>
+  <div class="preloader"></div>
 
+   <!-- totop -->
+   <div id="progress">
+    <span id="progress-value">&#x1F815;</span>
+  </div>
+  
   <header class="navbar navbar-expand-md header">
     <div class="container d-flex pt-1 align-items-baseline">
       <div class="d-flex align-items-baseline">
@@ -33,15 +40,12 @@
 
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg position-sticky top-0 p-2 z-3 align-items-center">
+  <nav class="navbar navbar-expand-lg position-sticky top-0 p-2 z-3 pb-3 align-items-center">
 
-    <!-- logo -->
-    <a href="index.html" class="text-decoration-none">
-      <div>
-        <h1 class="text-dark fw-bold logo-size"><img src="../assets/img/Untitled design(1).png" class="rounded-pill"
-            width="50px" alt="">
-          De mavis
-        </h1>
+    <a href="./About.htm" class="text-decoration-none">
+      <div class="d-flex align-items-center">
+        <img src="../assets/img/Untitled design(1).png" class="rounded-pill" width="50px" alt="">
+        <h3 class="text-dark fw-bold mt-3 mx-2">Wristech Store</h3>
       </div>
     </a>
 
@@ -51,14 +55,26 @@
 
     <div class="collapse navbar-collapse text-center" id="icon-nav">
       <ul class="navbar-nav list-unstyled mx-auto text-decoration-none fw-bold">
-        <li class="nav-items"><a href="home.html" class="nav-link mx-2">Home</a></li>
-        <li class="nav-items"><a href="gallery.html" class="nav-link mx-2">Gallery</a></li>
-        <li class="nav-items"><a href="" class="nav-link mx-2">Features</a></li>
-        <li class="nav-items"><a href="" class="nav-link mx-2">Review</a></li>
-        <li class="nav-items"><a href="shop.html" class="nav-link mx-2">Shop</a></li>
+        <li class="nav-items"><a href="index.html" class="nav-link mx-2">Home</a></li>
+        <li class="nav-items"><a href="./About.htm" class="nav-link mx-2">About</a></li>
+        <li class="nav-items"><a href="./gallery.html" class="nav-link mx-2">Gallery</a></li>
+        <li class="nav-items dropdown"><a href="../templates/shop.html" class="nav-link mx-2 dropdown-toggle"
+            data-bs-toggle="dropdown">Shop</a>
+          <div class="dropdown-menu">
+            <a href="" class="dropdown-item fw-bold">men</a>
+            <a href="" class="dropdown-item fw-bold">women</a>
+            <a href="" class="dropdown-item fw-bold">kids/teens</a>
+          </div>
+        </li>
+        <li class="nav-items"><a href="./features.html" class="nav-link mx-2">Features</a></li>
+        <li class="nav-items"><a href="./contact.html" class="nav-link mx-2">Contacts</a></li>
       </ul>
 
       <div class="d-lg-flex align-items-center">
+        <div class="mx-3">
+          <a href="./Registration/Sign.htm">
+            <i class="fas fa-circle-user text-danger my-2 fs-5"><br><span>sign in</span></i></a>
+        </div>
         <div class="mx-3">
           <i class="fas fa-shopping-cart text-danger my-2 fs-5"></i>
         </div>
@@ -68,11 +84,12 @@
       </div>
     </div>
   </nav>
+  
   <!-- heading -->
   <div class="heading_shop">
     <div class="container" style="padding: 4%;">
       <div>
-        <p class="text-center h3 fw-bold">Shop</p>
+        <h1 class="display-4 mb-4 fw-bold text-center">Welcome to Smartwatch <br> Emporium Shop</h1>
         <p style="text-align: right;"><a href="" class="text-decoration-none text-primary">Home</a> ><span
             class="fw-bold">
             products</span></p>
@@ -80,20 +97,19 @@
     </div>
   </div>
 
-  <div>
-    <div class="">
-
+  <section class="d-flex" style="margin: 5% 3%;">
+    <div class="input-container rounded mx-2 align-items-center">
+      <i class="fas fa-search"></i>
+      <input type="search" placeholder="Search Products">
     </div>
-    <div class="">
+    <button href="" class=" rounded search-btn">Search</button>
+  </section>
 
-    </div>
-  </div>
 
-  <div style="background: rgb(161,72,169);
-  background: radial-gradient(circle, rgba(161,72,169,1) 0%, rgba(17,17,18,1) 82%); color: aliceblue;">
+  <div class="shop-bg">
     <div class="container">
-      <div class="row g-3">
-        <div class="col-md-3">
+      <div class="row g-3 mx-auto">
+        <div class="col-sm-3">
           <img src="../assets/img/Watch5-300x300.jpg" alt="" class="img-fluid">
           <p class="fw-bold mt-3">Mint Green</p>
           <p class="strap-position">STRAP</p>
@@ -106,7 +122,7 @@
           <p style="font-size: 15px; font-weight: bolder;">&#8358; 15K.00</p>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <img src="../assets/img/Watch8-300x300.jpg" alt="" class="img-fluid">
           <p class="fw-bold mt-3">Light Pink</p>
           <p class="strap-position">STRAP</p>
@@ -118,7 +134,7 @@
           </div>
           <p style="font-size: 15px; font-weight: bolder;">&#8358; 15K.00</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <img src="../assets/img/black-watch-4.4.jpg" alt="" class="img-fluid">
           <p class="fw-bold mt-3">Charcoal Black</p>
           <p class="strap-position">BODY</p>
@@ -131,7 +147,7 @@
           <p style="font-size: 15px; font-weight: bolder;">&#8358; 18K.00</p>
 
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <img src="../assets/img/Watch6-300x300.jpg" alt="" class="img-fluid">
           <p class="fw-bold mt-3">Golden Sunset</p>
           <p class="strap-position">STRAP</p>
@@ -147,7 +163,7 @@
       </div>
 
       <div class="row g-3 mt-5">
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <img src="../assets/img/Watch1-300x300.jpg" alt="" class="img-fluid">
           <p class="fw-bold mt-3">Snow White</p>
           <p class="strap-position">STRAP</p>
@@ -159,7 +175,7 @@
           </div>
           <p style="font-size: 15px; font-weight: bolder;">&#8358; 15K.00</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <img src="../assets/img/Watch7-300x300.jpg" alt="" class="img-fluid">
           <p class="fw-bold mt-3">Sky Blue</p>
           <p class="strap-position">STRAP</p>
@@ -171,7 +187,7 @@
           </div>
           <p style="font-size: 15px; font-weight: bolder;">&#8358; 15K.00</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <img src="../assets/img/Watch2-300x300.jpg" alt="" class="img-fluid">
           <p class="fw-bold mt-3">Purple berry</p>
           <p class="strap-position">BODY</p>
@@ -184,7 +200,7 @@
           <p style="font-size: 15px; font-weight: bolder;">&#8358; 15K.00</p>
 
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <img src="../assets/img/Watch3-300x300.jpg " alt="" class="img-fluid">
           <p class="fw-bold mt-3">Pink Lemonade</p>
           <p class="strap-position">STRAP</p>
@@ -206,8 +222,8 @@
     <div class="container pt-3">
       <div class="row pt-5" style="padding-bottom: 7%;">
         <div class="col-md-6">
-          <h3>RisWATCH</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Laborum impedit reiciendis.</p>
+          <h3>Smartwatch Emporium</h3>
+          <p>Stay connected with smartwatch Emporium <br>.Explore the lastest in wearable teachnology.</p>
           <div class="mt-5 align-items-center">
             <a style="color:#d6effa;"><img src="../assets/img/master-card-logo.png" alt="" class="" width="8%"></a>
             <a style="color:#d6effa;"><img src="../assets/img/paypal-logo2.png" alt="" class="mx-4 " width="11%"></a>
@@ -216,27 +232,32 @@
           <p class="pt-3"><i class="fa-solid fa-lock mx-2"></i> <span class="mx-2">Secure online payment</span></p>
         </div>
         <div class="col-md-3">
-          <h5>BEST EXPERIENCE</h5>
+          <h5>COMPANY</h5>
           <p>FAQ</p>
+          <p>ABout us</p>
+          <p>Policy privacy</p>
+          <p>Terms and Conditions</p>
+        </div>
+        <div class="col-md-3">
+          <h5>BEST EXPERIENCE</h5>
+          <p>Giveaway</p>
           <p>Shipments</p>
-          <p>Returns</p>
           <p>Gift cards</p>
           <p>Policies</p>
         </div>
-        <div class="col-md-3">
-          <h5>COMPANY</h5>
-          <p>ABout us</p>
-          <p>Press</p>
-          <p>Officies</p>
-          <p>Affliates</p>
-          <p>Giveaway</p>
-        </div>
+
       </div>
     </div>
   </div>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-2">
+    <p>&copy; 2024 Smartwatch Emporium. All rights reserved.</p>
+  </footer>
+
 
   <script src="/bootstrap-5.3.0-alpha1-dist copy/js/bootstrap.bundle.js"></script>
   <link rel="stylesheet" href="../assets/js/shop.js">
+  <script src="../assets/js/tools.js"></script>
 </body>
 
 </html>

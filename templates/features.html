@@ -7,9 +7,16 @@
   <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist copy/css/bootstrap.min.css">
   <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
   <link rel="stylesheet" href="../assets/css/mediaquery.css">
+  <link rel="stylesheet" href="../assets/css/tools.css">
   <title>Document</title>
 </head>
 <body>
+  <div class="preloader"></div>
+
+ <!-- totop -->
+ <div id="progress">
+  <span id="progress-value">&#x1F815;</span>
+</div>
 
   <!-- header -->
   <header class="navbar navbar-expand-md header">
@@ -30,42 +37,51 @@
     </div>
   </header>
 
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg position-sticky top-0 p-2 z-3 pb-3 align-items-center">
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg position-sticky top-0 p-2 z-3 pb-3 align-items-center">
 
-      <!-- logo -->
-      <a href="./features.html" class="text-decoration-none">
-        <div>
-          <h3 class="text-dark fw-bold logo-size"><div class="align-items-center"><img src="../assets/img/Untitled design(1).png" class="rounded-pill mt-2"
-            width="50px" alt="">
-            Smartwatch <br> <span style="margin-left: 25%;"></span> Emporium</div> 
-          </h3>
+  <a href="./About.htm" class="text-decoration-none">
+    <div class="d-flex align-items-center">
+      <img src="../assets/img/Untitled design(1).png" class="rounded-pill" width="50px" alt="">
+      <h3 class="text-dark fw-bold mt-3 mx-2">Wristech Store</h3>
+    </div>
+  </a>
+
+  <!-- navbar icon -->
+  <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#icon-nav"><span
+      class="navbar-toggler-icon"></span></button>
+
+  <div class="collapse navbar-collapse text-center" id="icon-nav">
+    <ul class="navbar-nav list-unstyled mx-auto text-decoration-none fw-bold">
+      <li class="nav-items"><a href="index.html" class="nav-link mx-2">Home</a></li>
+      <li class="nav-items"><a href="./About.htm" class="nav-link mx-2">About</a></li>
+      <li class="nav-items"><a href="./gallery.html" class="nav-link mx-2">Gallery</a></li>
+      <li class="nav-items dropdown"><a href="../templates/shop.html" class="nav-link mx-2 dropdown-toggle"
+          data-bs-toggle="dropdown">Shop</a>
+        <div class="dropdown-menu">
+          <a href="" class="dropdown-item fw-bold">men</a>
+          <a href="" class="dropdown-item fw-bold">women</a>
+          <a href="" class="dropdown-item fw-bold">kids/teens</a>
         </div>
-      </a>
+      </li>
+      <li class="nav-items"><a href="./features.html" class="nav-link mx-2">Features</a></li>
+      <li class="nav-items"><a href="./contact.html" class="nav-link mx-2">Contacts</a></li>
+    </ul>
 
-    <!-- navbar icon -->
-    <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#icon-nav"><span
-        class="navbar-toggler-icon"></span></button>
-
-    <div class="collapse navbar-collapse text-center" id="icon-nav">
-      <ul class="navbar-nav list-unstyled mx-auto text-decoration-none fw-bold">
-        <li class="nav-items"><a href="index.html" class="nav-link mx-2">Home</a></li>
-        <li class="nav-items"><a href="gallery.html" class="nav-link mx-2">Gallery</a></li>
-        <li class="nav-items"><a href="features.html" class="nav-link mx-2">Features</a></li>
-        <li class="nav-items"><a href="" class="nav-link mx-2">Review</a></li>
-        <li class="nav-items"><a href="shop.html" class="nav-link mx-2">Shop</a></li>
-      </ul>
-
-      <div class="d-lg-flex align-items-center">
-        <div class="mx-3">
-          <i class="fas fa-shopping-cart text-danger my-2 fs-5"></i>
-        </div>
-        <div class="my-3 mx-2">
-          <a href="" class="rounded-pill fw-bold nav-b btn-lg">BUY NOW</a>
-        </div>
+    <div class="d-lg-flex align-items-center">
+      <div class="mx-3">
+        <a href="./Registration/Sign.htm">
+          <i class="fas fa-circle-user text-danger my-2 fs-5"><br><span>sign in</span></i></a>
+      </div>
+      <div class="mx-3">
+        <i class="fas fa-shopping-cart text-danger my-2 fs-5"></i>
+      </div>
+      <div class="my-3 mx-2">
+        <a href="" class="rounded-pill fw-bold nav-b">BUY NOW</a>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
 
  <!-- Hero Section -->
@@ -197,5 +213,6 @@
 
 <script src="/bootstrap-5.3.0-alpha1-dist copy/js/bootstrap.bundle.js"></script>
 <script src="../assets/js/features.js"></script>
+<script src="../assets/js/tools.js"></script>
 </body>
 </html>

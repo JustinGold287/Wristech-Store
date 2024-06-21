@@ -30,7 +30,7 @@ nav {
 }
 
 nav ul li {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .nav-b {
@@ -98,12 +98,16 @@ nav ul li {
 }
 
 .intro-bg-video {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/top-view-male-self-care-items.jpg);
+  background-color:hsla(0,0%,93%,1);
+  background-image:
+  radial-gradient(at 71% 76%, hsla(259,4%,18%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(343,98%,36%,1) 0px, transparent 50%);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
   background-attachment: scroll;
   margin-bottom: 10%;
+  text-shadow: 1px 1px 15px rgb(240, 240, 180);
 }
 
 /* vido player */
@@ -114,7 +118,7 @@ nav ul li {
 }
 
 .video-img {
-  border: 8px solid #0e0e97;
+  border: 8px solid #36363f;
   width: 151vh;
   height: 88vh;
   border-radius: 10px;
@@ -216,6 +220,7 @@ video :focus {
     radial-gradient(at 66% 46%, hsla(0, 0%, 97%, 0.46) 0px, transparent 50%),
     radial-gradient(at 42% 53%, hsla(339, 92%, 83%, 0.47) 0px, transparent 50%);
   margin-bottom: 6%;
+  display: none;
 }
 
 .footer-style {

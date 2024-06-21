@@ -1,0 +1,45 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* loading screen */
+.preloader{
+  background: #fdf8f8 url(../img/spinner1-unscreen.gif) no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  transition: opacity 1.7s, visibility 1.7s;
+}
+.preloader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* scroll to-up */
+#progress{
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  height: 60px;
+  width:60px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0,0,0.2);
+  cursor: pointer;
+  z-index: 2;
+}
+
+#progress-value{
+display: block;
+height: calc(100% - 15px);
+width: calc(100% - 15px);
+background-color: aliceblue;
+border-radius: 50%;
+display: grid;
+place-items: center;
+font-size: 35px;
+color: #1c0236;
+}
+

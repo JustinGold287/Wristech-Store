@@ -1,0 +1,97 @@
+@media(max-width:1310px){
+.input-container{
+  padding: 10px;
+}
+.input-username{
+  padding: 10px;
+}
+.nav-b2{
+  padding: 17px 130px;
+}
+}
+
+@media(max-width:1200px){
+.user-bg{
+  padding: 0 ;
+}
+}
+@media(max-width:992px){
+.signIMg_cout{
+  height: 60vh;
+}
+.signIMg_cout span{
+  text-shadow: 2px 2px 2px #ffffff;
+  color: rgb(168, 9, 9);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+}
+.third-sec{
+  margin-left: 18%;
+}
+.header {
+  display: none;
+}
+}
+
+@media(max-width:576px){
+  .nav-b2{
+    padding: 17px 90px;
+  }
+  .input-container{
+    padding:5px ;
+  }
+  .input-username{
+    padding:4px ;
+  }
+  .row_sign{
+    padding: 0;
+  }
+.third-sec{
+  margin-left: 6%;
+  margin-right: 7%;
+}
+.button{
+  padding: 10px;
+}
+}
+
+/* second faze */
+@media(max-width:1310px){
+  .input-container2{
+    padding:6px;
+  }
+  .input-container2 input{
+    width: auto;
+  }
+  .input-username2{
+    padding-left: 10px;
+  }
+
+  .nav-b{
+    padding: 17px 100px;
+  }
+  }
+  
+  @media(max-width:576px){
+    .nav-b{
+      padding: 17px 80px;
+    }
+    .input-container2{
+      padding:10px 4px ;
+    }
+    .input-container2 input{
+      padding: 3px;
+    }
+    .input-username2{
+      padding:0 4px ;
+    }
+    .input-username2 input{
+      padding:10px 0;
+    }
+    .sendCOde_btn{
+      /* display: none; */
+      padding:12px 3px;
+      font-size: small;
+    }
+  }

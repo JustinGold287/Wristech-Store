@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+/* header */
+.header {
+  background-color: #940404;
+  ;
+  color: white;
+  padding: 0;
+}
+
+.social-hover:hover {
+  transform: translateY(-7px);
+  transition: 1s;
+}
+
+/* logo */
+.logo-size {
+  color: 0;
+}
+
+/* navbar */
+nav {
+  box-shadow: 1px 1px 1px black;
+  background-color: white;
+  padding: 5px;
+}
+
+.user-bg{
+  height: auto;
+background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(/assets/img/sign_bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left;
+  padding: 0 17%;
+  padding-bottom: 8%;
+}
+.row_sign{
+  box-shadow: 1px 1px 15px rgb(42, 42, 42);
+  background-color: #490000ab;
+  padding: 10px;
+}
+.signIMg_cout{
+  position: relative;
+  background-image: url(/assets/img/3d-vector-img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+background-position: center;
+}
+.signIMg_cout span{
+  position: absolute;
+  bottom: 7%;
+  left: 28%;
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: larger;
+}
+/* search bar */
+.input-container{
+  background-color: #efdddd;
+width: max-content;
+padding: 6px 33px;
+margin: 0 auto;
+border: 2px solid #c9c6c6;
+}
+.input-container input{
+border: none;
+background-color: transparent;
+padding: 7px 18px;
+width: 250px;
+}
+.input-container i{
+cursor: pointer;
+}
+.input-container input::placeholder{
+color: #5c5b5b;
+}
+.input-container input:focus{
+  outline: none;
+}
+.input-container input:focus-visible{
+  outline: none;
+} 
+
+.input-username{
+  background-color: #efdddd;
+width: max-content;
+padding: 6px 33px;
+margin: 0 auto;
+border: 2px solid #c9c6c6;
+zbnsz4o5
+
+}
+.input-username input{
+border: none;
+background-color: transparent;
+padding: 7px 0;
+padding-left: 10px;
+padding-right: 20px;
+}
+.input-username i{
+cursor: pointer;
+}
+.input-username input::placeholder{
+color: #5c5b5b;
+}
+.input-username input:focus{
+  outline: none;
+}
+.input-username input:focus-visible{
+  outline: none;
+} 
+.nav-b2 {
+  background-color: #d30505;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 17px 148px;
+  font-size: smaller;
+}
+
+/* content 2 */
+.input-container2{
+  background-color: #efdddd;
+width: max-content;
+padding: 6px 10px;
+margin: 0 auto;
+border: 2px solid #c9c6c6;
+}
+.input-container2 input{
+  border: none;
+  background-color: transparent;
+  padding: 7px 18px;
+  width: 250px;
+  }
+.input-container2 i{
+  cursor: pointer;
+  }
+  .input-container2 input::placeholder{
+  color: #5c5b5b;
+  }
+  .input-container2 input:focus{
+    outline: none;
+  }
+  .input-container2 input:focus-visible{
+    outline: none;
+  } 
+  
+  select{
+    background-color: transparent;
+    border: none;
+  }
+  select:focus{
+    outline: none;
+  }
+  select:focus-visible{
+    outline: none;
+  } 
+  
+     /* Style the select box */
+     select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding-right: 20px; /* Adjust the padding to accommodate the icon */
+      background: url("/fontawesome-free-6.4.0-web/svgs/solid/caret-down.svg") no-repeat right center; /* Use a placeholder image */
+      background-size: 10px; /* Adjust the size of the icon */
+    }
+  
+    /* Style the icon */
+    .fa-caret-down {
+      position: absolute;
+      right: 5px; /* Adjust as needed */
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: #333; /* Adjust the color */
+    }
+
+  .input-username2{
+  background-color: #efdddd;
+  width: max-content;
+  padding: 0;
+  padding-left: 30px;
+  margin: 0 auto;
+  border: 2px solid #c9c6c6;
+  }
+  .input-username2 input{
+  border: none;
+  background-color: transparent;
+  padding: 13px 0;
+  padding-left: 10px;
+  padding-right: 1px;
+  }
+  .input-username2 i{
+  cursor: pointer;
+  }
+  .input-username2 input::placeholder{
+  color: #5c5b5b;
+  }
+  .input-username2 input:focus{
+    outline: none;
+  }
+  .input-username2 input:focus-visible{
+    outline: none;
+  } 
+
+  .sendCOde_btn{
+    background-color: #f6f5f5;
+    text-decoration: none;
+    padding: 13px 4px;
+  }
+
+.nav-b {
+  background-color: #d30505;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 17px 120px;
+  font-size: smaller;
+}
+.line-sizze{
+  width: 110px;
+  height: 2px;
+  background-color: #5c5b5b;
+}
+
+/* js */
+.button {
+  border: none;
+  background-color: transparent;
+  padding: 10px 23px;
+  font-size: 23px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.button:focus{
+  outline: none;
+}
+.button:focus-visible{
+  outline: none;
+}
+.button:hover{
+  background-color: rgba(127, 255, 212, 0.465);
+} 
+.active {
+  color: #f20b0b;
+  border-bottom: 3px solid #f30a0a;
+  font-size: 25px;
+} 
+.content {
+  display: none;
+}
+.show {
+  display: block;
+}

@@ -1,0 +1,14 @@
+<div class="container mt-5">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to Wristech Store</h1>
+    <p class="lead">At Wristech Store, we believe in the power of innovation and the potential of wearable technology to enhance lives.</p>
+    <hr class="my-4">
+    <p>We're on a mission to provide you with the latest and most cutting-edge smartwatches that seamlessly integrate into your lifestyle.</p>
+    <p>Our journey began in [year] with a vision to redefine the way people interact with technology. Since then, we've been dedicated to pushing the boundaries of innovation and delivering products that not only meet but exceed our customers' expectations.</p>
+    <p>But we're more than just a store – we're a community of tech enthusiasts, health-conscious individuals, and everyday adventurers who share a passion for staying connected and living life to the fullest. Whether you're a fitness enthusiast tracking your workouts, a busy professional managing your schedule, or a fashion-forward trendsetter accessorizing your look, we have the perfect smartwatch for you.</p>
+    <p>Join us on this exciting journey as we continue to innovate, inspire, and empower you to live your best life with the help of wearable technology. Thank you for choosing Wristech Store.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="products.html" role="button">Explore Our Products</a>
+    </p>
+  </div>
+</div>

@@ -119,8 +119,96 @@ max-width: 830px;
   justify-content: center;
 }
 
+/* search bar */
+.input-container{
+  background-color: #cfcaca;
+width: max-content;
+padding: 8px 18px;
+}
+.input-container input{
+border: none;
+background-color: transparent;
+padding: 8px 25px;
+}
+.input-container i{
+cursor: pointer;
+}
+.input-container input::placeholder{
+  font-size: large;
+}
+.input-container input:focus{
+  outline: none;
+}
+.input-container input:focus-visible{
+  outline: none;
+} 
 
+.search-btn{
+  background-color: #8a0808;
+  padding: 0px 25px;
+  text-decoration: none;
+  color: #ffffff;
+border: none;
+}
 
+/* js */
+
+ .content {
+  display: none;
+  padding: 10px;
+}
+ .drop_button{
+  border: none;
+  background-color: transparent;
+  padding: 20px 0;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.active-button{
+  color: blue;
+  border-bottom: 3px solid blue;
+  font-size: 17px;
+  }
+  .drop_button:focus{
+    outline: none;
+  }
+  .drop_button:focus-visible{
+    outline: none;
+  }  
+
+  .button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #ccc;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+@media (max-width: 576px){
+.input-container{
+  padding: 10px;
+}
+.input-container i{
+ 
+}
+.input-container input{
+  padding: 0px;
+}
+.search-btn{
+  padding: 10px;
+}
+}
 
 @media (max-width:992px){
 /* portfolio */

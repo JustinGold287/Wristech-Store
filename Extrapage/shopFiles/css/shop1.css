@@ -97,6 +97,9 @@ background-color: #d6d3d34b;
 color: blue;
 border-bottom: 3px solid blue;
 }
+.show{
+  display: block;
+}
 .review-star{
   background-color: rgb(216, 210, 210);
   padding: 11px 15px;

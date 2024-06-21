@@ -25,7 +25,7 @@ nav{
 }
 
 nav ul li {
-font-size: 20px;
+font-size: 18px;
 }
 
 .nav-b {
@@ -38,14 +38,48 @@ font-size: 20px;
 
 /* main section */
 .main-gal {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/apple-smartwatch-for-fitness-07eb2oe3w8m9poa7.jpg);
-  height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/gallerybgtwtch.png);
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 4% 0;
+  background-position: center;
 }
 .main-gal>section>div>h1{
   font-size: 60px; font-weight: bold;
   color: #f6f6f6;text-shadow: 2px 2px 2px red;
+}
+/* search bar */
+.input-container{
+  background-color: #cfcaca;
+width: max-content;
+padding: 8px 18px;
+}
+.input-container input{
+border: none;
+background-color: transparent;
+padding: 8px 25px;
+font-size: large;
+}
+.input-container i{
+cursor: pointer;
+}
+.input-container input::placeholder{
+  font-size: large;
+}
+.input-container input:focus{
+  outline: none;
+}
+.input-container input:focus-visible{
+  outline: none;
+} 
+
+.search-btn{
+  background-color: #8a0808;
+  padding: 0px 25px;
+  text-decoration: none;
+  color: #ffffff;
+border: none;
 }
 
 .bg-gal-2 {

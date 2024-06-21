@@ -30,8 +30,11 @@ border-bottom: 3px solid blue;
 .smrt-text{
   text-align: center;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3.8em;
   text-shadow: 2px 2px 2px rgb(223, 147, 147);
+  text-transform: capitalize;
+  font-variant: small-caps;
+  color: #e2e9f0;
 }
 
 @layer demo.view-transition {
