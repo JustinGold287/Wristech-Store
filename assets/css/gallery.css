@@ -1,16 +1,16 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   font-family: poppins;
 }
 /* header */
-.header{
-  background-color:#940404; ;
+.header {
+  background-color: #940404;
   color: white;
 }
-.social-hover:hover{
-transform:translateY(-7px);
-transition: 1s;
+.social-hover:hover {
+  transform: translateY(-7px);
+  transition: 1s;
 }
 
 /* logo */
@@ -19,17 +19,17 @@ transition: 1s;
   line-height: 1px;
 }
 /* navbar */
-nav{
+nav {
   box-shadow: 3px 3px 3px black;
   background-color: white;
 }
 
 nav ul li {
-font-size: 18px;
+  font-size: 18px;
 }
 
 .nav-b {
-  background-color:#d30505;
+  background-color: #d30505;
   color: #f6f6f6;
   text-decoration: none;
   padding: 17px 40px;
@@ -38,54 +38,70 @@ font-size: 18px;
 
 /* main section */
 .main-gal {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/gallerybgtwtch.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/AI-for-Personal-Use.jpg);
   height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 4% 0;
   background-position: center;
 }
-.main-gal>section>div>h1{
-  font-size: 60px; font-weight: bold;
-  color: #f6f6f6;text-shadow: 2px 2px 2px red;
+.main-gal > section > div > h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #f6f6f6;
+  text-shadow: 2px 2px 2px red;
 }
 /* search bar */
-.input-container{
+.input-container {
   background-color: #cfcaca;
-width: max-content;
-padding: 8px 18px;
+  width: max-content;
+  padding: 8px 18px;
 }
-.input-container input{
-border: none;
-background-color: transparent;
-padding: 8px 25px;
-font-size: large;
-}
-.input-container i{
-cursor: pointer;
-}
-.input-container input::placeholder{
+.input-container input {
+  border: none;
+  background-color: transparent;
+  padding: 5px 15px;
   font-size: large;
 }
-.input-container input:focus{
+.input-container i {
+  cursor: pointer;
+}
+.input-container input::placeholder {
+  font-size: large;
+}
+.input-container input:focus {
   outline: none;
 }
-.input-container input:focus-visible{
+.input-container input:focus-visible {
   outline: none;
-} 
+}
 
-.search-btn{
+.search-btn {
   background-color: #8a0808;
-  padding: 0px 25px;
+  padding: 0px 15px;
   text-decoration: none;
   color: #ffffff;
-border: none;
+  border: none;
+}
+
+.letgal{
+color: #f6f6f6;
+height: auto;
+background: rgb(255,243,243);
+background: linear-gradient(90deg, rgba(255,243,243,1) 0%, rgba(255,25,25,1) 100%);
+background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-fluidGAL{
+width: 200px;
 }
 
 .bg-gal-2 {
-  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/photo\ smartwatch348.avif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/photo\ smartwatch348.avif);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 70vh;
   background-size: cover;
   margin: 10% 0;
   background-position: center;
@@ -96,18 +112,19 @@ border: none;
 .move_gal {
   background-color: aliceblue;
   color: black;
-  padding:5% 5.5%;
+  padding: 5% 5.5%;
   position: absolute;
   right: 8%;
   border-radius: 10px;
 }
-.move_gal > p{
+.move_gal > p {
   line-height: 28px;
 }
 
 /* runing numbers */
 .run-n {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/new-smartwatch-balancing-with-pyramid_23-2150296473.avif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/new-smartwatch-balancing-with-pyramid_23-2150296473.avif);
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
