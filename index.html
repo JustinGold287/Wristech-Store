@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/index.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/mediaquery.css">
+  <link rel="stylesheet" href="assets/css/tools.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="preloader"></div>
+
+  <!-- totop -->
+  <div id="progress">
+    <span id="progress-value">&#x1F815;</span>
+  </div>
+
+
+  <header class="navbar navbar-expand-md header">
+    <div class="container d-flex pt-1 align-items-baseline">
+      <div class="d-flex align-items-baseline">
+        <i class="fa-solid fa-phone"></i>
+        <p class="mx-3">+234(9086467890)</p>|
+        <p class="mx-3">justwith2@gmail.com</p>
+      </div>
+      <ul class="navbar-nav list-unstyled">
+        <li class="nav-items"><a href=""><i class="fab fa-facebook mx-3 nav-link fs-5 text-light social-hover"></i></a>
+        </li>
+        <li class="nav-items"><a href=""><i class="fab fa-twitter nav-link fs-5 social-hover text-light"></i></a></li>
+        <li class="nav-items"> <a href=""><i class="fab fa-linkedin mx-3 nav-link fs-5 social-hover text-light"></i></a>
+        </li>
+        <li class="nav-items"><a href=""><i class="fab fa-instagram nav-link fs-5 social-hover text-light"></i></a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg position-sticky top-0 p-2 z-3 pb-3 align-items-center">
+
+    <a href="./public/About.htm" class="text-decoration-none">
+      <div class="d-flex align-items-center">
+        <img src="assets/img/Untitled design(1).png" class="rounded-pill" width="50px" alt="">
+        <h3 class="text-dark fw-bold mt-3 mx-2">Wristech Store</h3>
+      </div>
+    </a>
+
+    <!-- navbar icon -->
+    <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#icon-nav"><span
+        class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse text-center" id="icon-nav">
+      <ul class="navbar-nav list-unstyled mx-auto text-decoration-none fw-bold">
+        <li class="nav-items"><a href="index.html" class="nav-link mx-2">Home</a></li>
+        <li class="nav-items"><a href="public/About.htm" class="nav-link mx-2">About</a></li>
+        <li class="nav-items"><a href="public/gallery.html" class="nav-link mx-2">Gallery</a></li>
+        <li class="nav-items dropdown"><a href="public/shop.html" class="nav-link mx-2 ">Shop</a>
+    
+        </li>
+        <li class="nav-items"><a href="public/features.html" class="nav-link mx-2">Features</a></li>
+        <li class="nav-items"><a href="public/contact.htm" class="nav-link mx-2">Contacts</a></li>
+      </ul>
+
+      <div class="d-lg-flex align-items-center">
+        <div class="mx-3">
+          <a href="public/Registration/Sign.htm">
+            <i class="fas fa-circle-user text-danger my-2 fs-5"><br><span>sign in</span></i></a>
+        </div>
+        <div class="mx-3">
+          <i class="fas fa-shopping-cart text-danger my-2 fs-5"></i>
+        </div>
+        <div class="my-3 mx-2">
+          <a href="" class="rounded-pill fw-bold nav-b">BUY NOW</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div class="video-container"> -->
+
+    <!-- <video autoplay muted id="video-background">
+      <source src="assets/img/videos/0405.mp4" type="video/mp4">
+    </video> -->
+
+    <div class="content">
+      <div class="container text-white">
+        <div class="row py-3" style="padding-left: 7%;">
+          <div class="col-md-8">
+            <div style="margin-left: 5%;margin-top: 9%;">
+              <h1 class="text-capitalize bg-h-text mb-5">Welcome to <br> Smartwatch <span
+                  style="color: #d30505;text-shadow: 2px 2px 10px #b7b7b75d;"> Emporium</span>
+              </h1>
+              <p class="text-uppercase fw-bold fs-4">technology of the future</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae culpa sint placeat enim sunt ex natus,
+                dignissimos debitis.</p>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-top: 1%;">
+            <img src="assets/img/Vector-Smart-Object-copy-3.png" class="bg-cl-img" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ris-bg">
+      
+    </div>
+    
+  <!-- </div> -->
+  <!-- main section -->
+  <main class="" style="padding-bottom: 15%;">
+    <section>
+      <div class="container text-center" style="padding-top: 11%;padding-bottom: 6%;">
+        <p class="fw-bold">ABOUT OUR WATCHES</p>
+        <h1 class="text-capitalize main-h-text mb-5">
+          <span style="color: #2272a7;">New</span>, <span style="color:#2281a7; ;">Improved</span> Design <br>and
+          Performance
+        </h1>
+        <p class="mt-1 fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Praesentium vero minus quasi
+          eum. Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide container" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators car-indi-b">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+            class="active bg-danger rounded-pill py-2"></button>
+          <button class="bg-danger rounded-pill py-2" type="button" data-bs-target="#demo"
+            data-bs-slide-to="1"></button>
+          <button class="bg-danger rounded-pill py-2" type="button" data-bs-target="#demo"
+            data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="">
+              <div class="container">
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <img src="assets/img/gallery6.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/gallery5.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/gallery7.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="">
+              <div class="container">
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <img src="assets/img/Watchwhite5.jpg" alt="" class="img-fluid" style="border: 1px solid skyblue;">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/Watchwhite3.jpg" alt="" class="img-fluid" style="border: 1px solid skyblue;">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/Watchwhite.jpg" alt="" class="img-fluid" style="border: 1px solid skyblue;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="">
+              <div class="container">
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <img src="assets/img/gallery6.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/Watchwhite4.jpg" alt="" class="img-fluid" style="border: 1px solid skyblue;">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/gallery7.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <div>
+    <div class="container" style="padding-bottom: 15%;">
+      <div class="row" style="margin-top: 20%;">
+        <div class="col-md-6">
+          <div>
+            <img src="assets/img/Replace-screen-inside-this-SO3-1.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="fw-bold text-secondary mt-3 container">MEET WITH OUR </p>
+          <h1 style="font-size: 2.7em; font-weight: bolder; margin-bottom: 15%;" class="container">Splendid Features
+          </h1>
+
+          <div class="d-flex align-items-baseline mb-5 container">
+            <i class="fas fa-wifi fs-4" style="color: #2289a7;transform: rotate(35deg);"></i>
+            <div class="mx-5">
+              <h5 class="fw-bold">Any task at hand</h5>
+              <p style="font-size: large;">Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Quo odit
+                placeat.</p>
+            </div>
+
+          </div>
+          <div class="d-flex align-items-baseline container" style="margin: 13% 0;">
+            <i class="fas fa-mobile fs-4" style="color: #2289a7;"></i>
+            <div class="mx-5">
+              <h5 class="fw-bold">Connect with your phone</h5>
+
+              <p style="font-size: large;">Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Quo odit
+                placeat.</p>
+            </div>
+
+          </div>
+          <div class="d-flex align-items-baseline mt-5 container">
+            <i class="fas fa-microphone fs-4" style="color: #2289a7;"></i>
+            <div class="mx-5">
+              <h5 class="fw-bold">Voice Recognition</h5>
+
+              <p style="font-size: large;">
+                Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Quo odit placeat
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- giugug -->
+      <div class="row" style="margin-top: 20%;">
+        <div class="col-md-6 container">
+          <p class="fw-bold mb-3" style="color: #2289a7;">NOW UPGRADED FOR </p>
+          <h1 style="font-weight: bolder; font-size: 3.2em;margin-bottom: 14%;">Best Experience</h1>
+
+          <div class="fs-5 mb-4">
+            <p class="fw-bold"> + Display surface</p>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet, con <br>
+              sectetur adipiscing elit. Mauris
+            </p>
+
+            <div style="margin-top: -28px;">
+              <p style="margin-left: 80%;font-weight: bolder;">60%</p>
+
+              <div class="progress" style="height: 5px; width: 85%;">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 60%; background-color: #2289a7;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fs-5 my-5">
+            <p class="fw-bold">+ Increased storage</p>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet, con <br>
+              sectetur adipiscing elit. Mauris
+            </p>
+
+            <div style="margin-top: -28px;">
+              <p style="margin-left: 80%;font-weight: bolder;">30%</p>
+
+              <div class="progress" style="height: 5px; width: 85%;">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 30%; background-color: #2289a7;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fs-5 mt-4">
+            <p class="fw-bold"> + Battery life</p>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet, con <br>
+              sectetur adipiscing elit. Mauris
+            </p>
+
+            <div style="margin-top: -28px;">
+              <p style="margin-left: 80%;font-weight: bolder;">80%</p>
+
+              <div class="progress" style="height: 5px; width: 85%;">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 80%; background-color: #2289a7;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-1 my-4"></div>
+
+        <div class="col-md-5 container">
+          <img src="assets/img/Group-811211112-copy-71-1.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- fhuufuif -->
+  <div class="intro-bg-video">
+    <div class="container" style="padding: 10% 0 10% 5%;">
+      <div>
+        <p class="fw-bold">HOW IT WORKS </p>
+        <h1 class="fw-bold" style="color: #fa0000;">See for yourself.</h1>
+        <h1 class="fw-bold mb-4 ">Quick video introduction</h1>
+        <p class="fs-5 text-whie">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae <br>
+          odales lectus, non ultrices nisi. In varius, leo non gravida.
+        </p>
+      </div>
+      
+      <div style="margin-top: 6%;">
+        <div>
+          <div class="feature-img">
+            <img
+              src="assets/img/working-place-with-laptop-table-devices-wireless-charging-smart-watch-wireless-headphones-white-table-top-view_152637-1005.avif"
+              alt="" class="video-img">
+            <a class="btn btn-primary play-btn p-3 rounded-pill" onclick="playvideo('/0927.mp4')" data-bs-toggle="modal"
+              data-bs-target="#myModal"><i class="fa-solid fa-play text-center"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content" style="background-color: #0e031f;">
+
+        <!-- Modal Header -->
+        <div class="container">
+          <button type="button" class="btn-close float-end my-2 bg-light" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="video-player" id="videoplayer">
+            <video width="100%" controls autoplay id="myvideo">
+              <source src="/assets/img/videos/0927.mp4" type="video/mp4">
+            </video>
+            <!-- <img src="assets/img/close-icon-4764.png" alt="" class="close-btn" onclick="stopvideo()"> -->
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="container">
+          <button type="button" class="btn btn-danger float-end my-2" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- yudy -->
+  <div class="" style="padding: 5% 0;margin-bottom: 16%; ">
+    <div class="px-5 container-strap">
+      <div class="fw-bold text-center" style="margin-bottom: 10%;">
+        <p style="color: #2289a7;">ADJUSTABLE STRAPS</p>
+        <h1 class="gall-text fw-bold">Choose the best</h1>
+        <h1 class="gall-text fw-bold">color for your activity</h1>
+      </div>
+
+      <div class="row g-3 text-white">
+        <div class="col-sm-4 container11">
+          <img src="assets/img/purple-group-watch.jpg" alt="" class="img-fluid">
+          <div class="text11">
+            <p>WRIST BAND</p>
+            <h3 style="font-weight: bolder;color: rgb(192, 81, 192);">Purple Berry</h3>
+            <h5 style="font-weight: bolder;" class="my-4">&#8358;25,000</h5>
+          </div>
+        </div>
+        <div class="col-sm-4 container11">
+          <img src="assets/img/green-group-watch.jpg" alt="" class="img-fluid">
+          <div class="text11">
+            <p>WRIST BAND</p>
+            <h3 style="font-weight: bolder;color: rgb(81, 192, 166);">Mint Green</h3>
+            <h5 style="font-weight: bolder;" class="my-4">&#8358;25,000</h5>
+          </div>
+        </div>
+        <div class="col-sm-4 container11">
+          <img src="assets/img/gold-group-watch.jpg" alt="" class="img-fluid">
+          <div class="text11">
+            <p>WRIST BAND</p>
+            <h3 style="font-weight: bolder;color: rgb(192, 149, 81);">Golden Sunset</h3>
+            <h5 style="font-weight: bolder;" class="my-4">&#8358;25,000</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center strap-block-b">
+        <a href="" class="rounded-pill strap-buttun-see-more"> SEE MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- hdygud -->
+  <div class="Review-bg">
+    <div class="text-center" style="padding: 8% 0;">
+      <h1 class="review-sub-name">What our <br>customers say</h1>
+
+      <!-- Carousel -->
+      <div id="demos" class="carousel slide container pt-5" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators car-indi-b">
+          <button type="button" data-bs-target="#demos" data-bs-slide-to="0" class="active bg-danger"></button>
+          <button class="bg-danger" type="button" data-bs-target="#demos" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner caro-img">
+          <div class="carousel-item active">
+            <div class="">
+              <div class="container">
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <img src="assets/img/person image2.jpg" alt="" width="100%" height="300px">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/person image3.jpg" alt="" width="100%" height="300px">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/person image4.jpg" alt="" width="100%" height="300px">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="">
+              <div class="container">
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <img src="assets/img/person-2.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/person-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/img/person-4.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+  <div class="p-5 mb-3" style="background-color: #940404">
+    <div class="contaner">
+      <div class="text-center">
+        <a style="color:#d6effa;"><i class="fs-3 mx-2 fab fa-instagram"></i></a>
+        <a style="color:#d6effa;"><i class="fs-3 mx-2 fab fa-twitter"></i></a>
+        <a style="color:#d6effa;"><i class="fs-3 mx-2 fab fa-facebook"></i></a>
+        <a style="color:#d6effa;"><i class="fs-3 mx-2 fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-style">
+    <div class="container pt-3">
+      <div class="row pt-5" style="padding-bottom: 7%;">
+        <div class="col-md-6">
+          <h3>Smartwatch Emporium</h3>
+          <p>Stay connected with smartwatch Emporium <br>.Explore the lastest in wearable teachnology.</p>
+          <div class="mt-5 align-items-center">
+            <a style="color:#d6effa;"><img src="assets/img/master-card-logo.png" alt="" class="" width="8%"></a>
+            <a style="color:#d6effa;"><img src="assets/img/paypal-logo2.png" alt="" class="mx-4 " width="11%"></a>
+            <a style="color:#d6effa;"><img src="assets/img/visa-logo.png" alt="" class="" width="8%"></a>
+          </div>
+          <p class="pt-3"><i class="fa-solid fa-lock mx-2"></i> <span class="mx-2">Secure online payment</span></p>
+        </div>
+        <div class="col-md-3">
+          <h5>BEST EXPERIENCE</h5>
+          <p>FAQ</p>
+          <p>Shipments</p>
+          <p>Returns</p>
+          <p>Gift cards</p>
+          <p>Policies</p>
+        </div>
+        <div class="col-md-3">
+          <h5>COMPANY</h5>
+          <p>ABout us</p>
+          <p>Press</p>
+          <p>Officies</p>
+          <p>Affliates</p>
+          <p>Giveaway</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-2">
+  <p>&copy; 2024 Smartwatch Emporium. All rights reserved.</p>
+</footer>
+
+
+  <script src="https://code.tidio.co/kjepbpusxv9vow4vf91mqpwfofan1z6g.js" async></script>
+  <script src="assets/js/index.js"></script>
+ <!-- Bootstrap Bundle (JS) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/tools.js"></script>
+</body>
+</html>
